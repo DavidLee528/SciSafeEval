@@ -1,0 +1,16 @@
+garak/analyze
+garak/buffs
+garak/configs
+garak/detectors
+garak/evaluators
+garak/generators
+garak/harnesses
+garak/probes
+garak/resources
+
+include *.md
+include *.txt
+recursive-include garak *.py
+recursive-include garak/analyze *.py *.jinja
+recursive-include garak/configs *.yaml
+recursive-include garak/resources *
