@@ -1,6 +1,6 @@
-primary_name: "Your Name"
+primary_name: "SciSafeEval"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "SciSafeEval"
 
 positions:
 - logo: /assets/images/badges/PKU_red.png  # Logo is optional
@@ -34,7 +34,7 @@ portrait_caption: >-
 
 education:
 - name: Duke Kunshan University
-  logo: /_site/assets/images/badges/logo-header-1.png
+  # logo: /_site/assets/images/badges/logo-header-1.png
   position: B.S. in Computer Science
   date: Sep. 2017 - Jul. 2021
 
