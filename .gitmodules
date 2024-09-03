@@ -1,3 +1,6 @@
 [submodule "code/garak"]
 	path = code/garak
 	url = https://github.com/leondz/garak.git
+[submodule "garak"]
+	path = garak
+	url = https://github.com/leondz/garak.git
