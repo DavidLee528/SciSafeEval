@@ -1,1 +1,1 @@
-# SciSafeEval-Leaderboard
+# SciSafeEval
