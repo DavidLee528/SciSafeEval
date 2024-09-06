@@ -1,0 +1,13 @@
+---
+layout: default
+title: Leaderboard
+navbar_title: Leaderboard
+---
+
+<h1>Leaderboard</h1>
+
+<div class="leaderboard">
+    {% for item in site.data.leaderboard %}
+        {% include widgets/leaderboard_item.html item=item %}
+    {% endfor %}
+</div>
