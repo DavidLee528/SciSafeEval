@@ -1,13 +1,13 @@
-{% assign publications = include.publications %}
+{% assign leaderboard = include.leaderboard %}
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
     <h6 class="border-bottom border-gray p-3 mb-0">
-        {% if include.title %}{{ include.title }}{% else %}<i class="fas fa-star"></i> Selected Recent Publications{% endif %} 
-        <a href="{{ 'publications' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
+        {% if include.title %}{{ include.title }}{% else %}Leaderboard{% endif %}
+        <a href="{{ 'leaderboard' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
     </h6>
-    {% for item in publications limit:include.limit %}
-        {% include widgets/publication_item.html item=item %}    
+    {% for item in leaderboard limit:include.limit %}
+        {% include widgets/leaderboard_item.html item=item %}
     {% endfor %}
     <h6 class="d-block p-3 mt-0 text-right">
-        <a href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-double-right"></i></a>
+        <a href="{{ 'leaderboard' | relative_url }}">Full Leaderboard <i class="fas fa-angle-double-right"></i></a>
     </h6>
 </div>
