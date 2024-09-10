@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: Leaderboard
 navbar_title: Leaderboard
@@ -10,4 +10,138 @@ navbar_title: Leaderboard
     {% for item in site.data.leaderboard %}
         {% include widgets/leaderboard_item.html item=item %}
     {% endfor %}
+</div> -->
+
+---
+layout: default
+title: Leaderboard
+navbar_title: Leaderboard
+---
+
+<h1>Leaderboard</h1>
+
+<!-- 主排行榜表格 -->
+<div class="table-responsive my-4">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>AVG - EN</th>
+                <th>AVG</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>XLMR-Large</td>
+                <td>65.66</td>
+                <td>66.82</td>
+            </tr>
+            <tr>
+                <td>XLMR-Base</td>
+                <td>64.82</td>
+                <td>65.87</td>
+            </tr>
+            <tr>
+                <td>MBERT</td>
+                <td>62.84</td>
+                <td>63.88</td>
+            </tr>
+            <tr>
+                <td>EWISER</td>
+                <td>62.16</td>
+                <td>63.38</td>
+            </tr>
+            <tr>
+                <td>SyntagRank</td>
+                <td>57.68</td>
+                <td>59.02</td>
+            </tr>
+            <tr>
+                <td>Babelfy</td>
+                <td>52.85</td>
+                <td>54.01</td>
+            </tr>
+            <tr>
+                <td>MCS</td>
+                <td>49.31</td>
+                <td>50.85</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2>Language Breakdown</h2>
+
+<!-- 语言分解表格 -->
+<div class="table-responsive my-4">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>BG</th>
+                <th>CA</th>
+                <th>DA</th>
+                <th>DE</th>
+                <th>EN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>XLMR-Large</td>
+                <td>72.00</td>
+                <td>49.97</td>
+                <td>80.61</td>
+                <td>83.18</td>
+                <td>76.28</td>
+            </tr>
+            <tr>
+                <td>XLMR-Base</td>
+                <td>71.59</td>
+                <td>47.77</td>
+                <td>79.18</td>
+                <td>82.13</td>
+                <td>74.50</td>
+            </tr>
+            <tr>
+                <td>MBERT</td>
+                <td>68.78</td>
+                <td>47.35</td>
+                <td>76.04</td>
+                <td>80.63</td>
+                <td>72.40</td>
+            </tr>
+            <tr>
+                <td>EWISER</td>
+                <td>68.64</td>
+                <td>42.99</td>
+                <td>76.67</td>
+                <td>80.86</td>
+                <td>73.28</td>
+            </tr>
+            <tr>
+                <td>SyntagRank</td>
+                <td>61.10</td>
+                <td>43.98</td>
+                <td>72.93</td>
+                <td>75.99</td>
+                <td>69.96</td>
+            </tr>
+            <tr>
+                <td>Babelfy</td>
+                <td>60.39</td>
+                <td>36.52</td>
+                <td>71.33</td>
+                <td>77.84</td>
+                <td>64.09</td>
+            </tr>
+            <tr>
+                <td>MCS</td>
+                <td>58.16</td>
+                <td>27.17</td>
+                <td>64.33</td>
+                <td>75.99</td>
+                <td>63.37</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
