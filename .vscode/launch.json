@@ -7,9 +7,18 @@
         {
             "name": "Main",
             "type": "debugpy",
+            "python": "/home/tianhao.li/miniconda3/envs/scisafeeval/bin/python",
             "request": "launch",
             "program": "${workspaceFolder}/code/main.py",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal", 
+            "args": [
+                "--model_type",
+                "openai",
+                "--model_name",
+                "gpt-3.5-turbo",
+                "--probes",
+                "encoding"
+            ]
         }
     ]
 }
