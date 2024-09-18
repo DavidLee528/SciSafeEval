@@ -1,0 +1,4 @@
+[submodule "garak_for_scisafeeval"]
+	path = garak
+	url = https://github.com/DavidLee528/garak.git
+	branch = feature/SciSafeEval
