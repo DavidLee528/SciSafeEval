@@ -1,5 +1,13 @@
 # SciSafeEval
 
+## Usage
+
+Clone this repo from remote to local:
+
+```bash
+git clone --recursive https://github.com/DavidLee528/SciSafeEval.git
+```
+
 ## Code Structure
 
 The SciSafeEval code is organized into three primary components:
